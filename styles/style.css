@@ -1,3 +1,11 @@
+ *{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
 /* Navbar and Banner starts here */
 .whole-banner{
     background-image: url("../Assets/Hero-bg.png");
