@@ -2,8 +2,10 @@
 .whole-banner{
     background-image: url("../Assets/Hero-bg.png");
     max-width: 1440px;
-    max-height: 698px;
+    min-height: 698px;
     background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
 }
 
 nav{
@@ -29,4 +31,7 @@ nav button{
     font-weight: bold;
 }
 
-
+button:hover{
+    background-color: mediumpurple;
+    cursor: pointer;
+}
