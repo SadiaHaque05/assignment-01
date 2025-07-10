@@ -65,3 +65,45 @@ div button{
     display: block;
     margin: auto;
 }
+
+/* Action section starts here */
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+    margin: auto;
+    margin-top: 37px;
+}
+
+div h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+div p{
+    font-size: 24px;
+    font-weight: regular;
+    color: rgba(37, 36, 50, 0.5);
+    margin-top: 23px;
+}
+
+.sec2-btn{
+     border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px ;
+    height: 48px;
+    width: 229px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+section img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
