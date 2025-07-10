@@ -1,0 +1,32 @@
+/* Navbar and Banner starts here */
+.whole-banner{
+    background-image: url("../Assets/Hero-bg.png");
+    max-width: 1440px;
+    max-height: 698px;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    color: #4E47FF;
+    font-weight: 34px;
+}
+
+nav button{
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    padding:12px 36px ;
+    height: 48px;
+    width: 132px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
