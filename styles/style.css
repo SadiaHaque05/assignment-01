@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 150px 50px 150px;
 }
 
 nav h1{
@@ -23,7 +24,7 @@ nav button{
     border-radius: 10px;
     background-color: #4E47FF;
     color: white;
-    padding:12px 36px ;
+    padding: 12px 36px ;
     height: 48px;
     width: 132px;
     border: 0;
@@ -34,4 +35,25 @@ nav button{
 button:hover{
     background-color: mediumpurple;
     cursor: pointer;
+}
+
+div h1{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 158px;
+}
+
+div button{
+     border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px ;
+    height: 48px;
+    width: 174px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
 }
