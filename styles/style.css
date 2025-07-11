@@ -107,3 +107,46 @@ section img{
     width: 403px;
     border-radius: 48px;
 }
+
+ /* productive users section */
+ #tpc{
+    display: block;
+    margin: auto;
+ }
+
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.productive{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+    max-width: 1140px;
+    max-height: 306px;
+    border-radius: 24px;
+ }
+
+ .parent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 856px;
+    height: 121px;
+ }
+
+ .child h2{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    line-height: 40px;
+ }
+
+ .child{
+    line-height: 5px;
+    display: inline;
+    text-align: center;
+ }
+
+ /* users' feedback section */
