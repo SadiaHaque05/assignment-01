@@ -150,3 +150,46 @@ section img{
  }
 
  /* users' feedback section */
+.reactions{
+    max-width: 1140px;
+    max-height: 342px;
+}
+
+ #image-container{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #image-container img{
+    height: 20px;
+    width: 20px;
+ }
+
+ .bottom-section img{
+    height: 40px;
+    width: 40px;
+    border-radius: 999px;
+ }
+
+ .bottom-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    gap: 10px;
+    line-height: 2px;
+ }
+
+ #whole-card{
+    padding: 24px 24px;
+    border-radius: 14px;
+    background-color: #F2EDED;
+    width: 350px;
+    height: 260px;
+ }
+
+ .whole-cards{
+    display: flex;
+    gap: 20px;
+ }
